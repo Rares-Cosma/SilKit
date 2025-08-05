@@ -2,7 +2,7 @@
 *.d
 
 # CMAKE
-/build/
+/project/build/
 
 # Ignore editor/IDE files
 /.vscode/
