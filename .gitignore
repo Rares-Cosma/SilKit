@@ -1,6 +1,17 @@
 # Prerequisites
 *.d
 
+# CMAKE
+/build/
+
+# Ignore editor/IDE files
+/.vscode/
+/.idea/
+
+# Ignore other OS files
+.DS_Store
+Thumbs.db
+
 # Compiled Object files
 *.slo
 *.lo
@@ -17,25 +28,9 @@
 # Debugger Files
 *.pdb
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
 # Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
 
 # debug information files
 *.dwo

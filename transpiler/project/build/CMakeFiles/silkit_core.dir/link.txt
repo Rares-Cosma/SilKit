@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsilkit_core.a CMakeFiles/silkit_core.dir/src/silkit.cpp.o
+/usr/bin/ranlib libsilkit_core.a

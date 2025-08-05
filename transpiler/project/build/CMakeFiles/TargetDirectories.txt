@@ -1,0 +1,9 @@
+/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles/silkit_core.dir
+/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles/silkit.dir
+/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles/test.dir
+/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles/edit_cache.dir
+/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles/rebuild_cache.dir
+/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles/list_install_components.dir
+/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles/install.dir
+/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles/install/local.dir
+/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles/install/strip.dir
