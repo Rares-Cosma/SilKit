@@ -83,12 +83,12 @@ clean: CMakeFiles/silkit.dir/clean
 CMakeFiles/silkit_core.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/silkit_core.dir/build.make CMakeFiles/silkit_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/silkit_core.dir/build.make CMakeFiles/silkit_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles --progress-num=3,4 "Built target silkit_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles --progress-num=3,4,5 "Built target silkit_core"
 .PHONY : CMakeFiles/silkit_core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/silkit_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/silkit_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles 0
 .PHONY : CMakeFiles/silkit_core.dir/rule
@@ -114,7 +114,7 @@ CMakeFiles/silkit.dir/all: CMakeFiles/silkit_core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/silkit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/silkit.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles 0
 .PHONY : CMakeFiles/silkit.dir/rule

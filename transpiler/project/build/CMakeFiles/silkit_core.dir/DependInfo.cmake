@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/rares/Desktop/proiecte/SilKit/transpiler/project/src/lexer.cpp" "CMakeFiles/silkit_core.dir/src/lexer.cpp.o" "gcc" "CMakeFiles/silkit_core.dir/src/lexer.cpp.o.d"
   "/home/rares/Desktop/proiecte/SilKit/transpiler/project/src/silkit.cpp" "CMakeFiles/silkit_core.dir/src/silkit.cpp.o" "gcc" "CMakeFiles/silkit_core.dir/src/silkit.cpp.o.d"
   )
 

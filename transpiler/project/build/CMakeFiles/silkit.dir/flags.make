@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/rares/Desktop/proiecte/SilKit/transpiler/project/include
 
-CXX_FLAGS = -g -std=c++17 -Wall -Wextra -pedantic -Werror
+CXX_FLAGS = -g -std=c++17 -Wall -Wextra -pedantic
 

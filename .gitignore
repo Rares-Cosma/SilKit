@@ -6,7 +6,6 @@
 build/
 build-*/
 
-
 # Ignore editor/IDE files
 /.vscode/
 /.idea/

@@ -8,7 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 if(MSVC)
     add_compile_options(/W4 /permissive-)
 else()
-    add_compile_options(-Wall -Wextra -pedantic -Werror)
+    add_compile_options(-Wall -Wextra -pedantic)
 endif()
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/../bin")

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/silkit_core.dir/src/lexer.cpp.o"
+  "CMakeFiles/silkit_core.dir/src/lexer.cpp.o.d"
   "CMakeFiles/silkit_core.dir/src/silkit.cpp.o"
   "CMakeFiles/silkit_core.dir/src/silkit.cpp.o.d"
   "libsilkit_core.a"

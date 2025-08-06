@@ -69,10 +69,24 @@ include CMakeFiles/silkit_core.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/silkit_core.dir/flags.make
 
+CMakeFiles/silkit_core.dir/src/lexer.cpp.o: CMakeFiles/silkit_core.dir/flags.make
+CMakeFiles/silkit_core.dir/src/lexer.cpp.o: /home/rares/Desktop/proiecte/SilKit/transpiler/project/src/lexer.cpp
+CMakeFiles/silkit_core.dir/src/lexer.cpp.o: CMakeFiles/silkit_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/silkit_core.dir/src/lexer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/silkit_core.dir/src/lexer.cpp.o -MF CMakeFiles/silkit_core.dir/src/lexer.cpp.o.d -o CMakeFiles/silkit_core.dir/src/lexer.cpp.o -c /home/rares/Desktop/proiecte/SilKit/transpiler/project/src/lexer.cpp
+
+CMakeFiles/silkit_core.dir/src/lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/silkit_core.dir/src/lexer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rares/Desktop/proiecte/SilKit/transpiler/project/src/lexer.cpp > CMakeFiles/silkit_core.dir/src/lexer.cpp.i
+
+CMakeFiles/silkit_core.dir/src/lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/silkit_core.dir/src/lexer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rares/Desktop/proiecte/SilKit/transpiler/project/src/lexer.cpp -o CMakeFiles/silkit_core.dir/src/lexer.cpp.s
+
 CMakeFiles/silkit_core.dir/src/silkit.cpp.o: CMakeFiles/silkit_core.dir/flags.make
 CMakeFiles/silkit_core.dir/src/silkit.cpp.o: /home/rares/Desktop/proiecte/SilKit/transpiler/project/src/silkit.cpp
 CMakeFiles/silkit_core.dir/src/silkit.cpp.o: CMakeFiles/silkit_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/silkit_core.dir/src/silkit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/silkit_core.dir/src/silkit.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/silkit_core.dir/src/silkit.cpp.o -MF CMakeFiles/silkit_core.dir/src/silkit.cpp.o.d -o CMakeFiles/silkit_core.dir/src/silkit.cpp.o -c /home/rares/Desktop/proiecte/SilKit/transpiler/project/src/silkit.cpp
 
 CMakeFiles/silkit_core.dir/src/silkit.cpp.i: cmake_force
@@ -85,15 +99,17 @@ CMakeFiles/silkit_core.dir/src/silkit.cpp.s: cmake_force
 
 # Object files for target silkit_core
 silkit_core_OBJECTS = \
+"CMakeFiles/silkit_core.dir/src/lexer.cpp.o" \
 "CMakeFiles/silkit_core.dir/src/silkit.cpp.o"
 
 # External object files for target silkit_core
 silkit_core_EXTERNAL_OBJECTS =
 
+libsilkit_core.a: CMakeFiles/silkit_core.dir/src/lexer.cpp.o
 libsilkit_core.a: CMakeFiles/silkit_core.dir/src/silkit.cpp.o
 libsilkit_core.a: CMakeFiles/silkit_core.dir/build.make
 libsilkit_core.a: CMakeFiles/silkit_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsilkit_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rares/Desktop/proiecte/SilKit/transpiler/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libsilkit_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/silkit_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/silkit_core.dir/link.txt --verbose=$(VERBOSE)
 

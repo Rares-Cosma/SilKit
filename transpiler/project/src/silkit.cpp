@@ -1,8 +1,6 @@
-#include <iostream>
+#include "../include/lexer.hpp"
 
-using namespace std;
-
-int main(){
-    cout<<"strat";
+int main(int argc, char *argv[]){
+    std::cout<<argc;
     return 0;
 }
