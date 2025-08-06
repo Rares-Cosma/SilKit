@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/silkit.dir/src/silkit.cpp.o -o /home/rares/Desktop/proiecte/SilKit/transpiler/project/bin/silkit  libsilkit_core.a 
