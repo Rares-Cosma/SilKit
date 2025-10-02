@@ -8,6 +8,7 @@ void process(int argc, char *argv[]){
         default:
             std::string filename="";
             bool spec_file=false;
+            
 
             for (int i=1;i<argc;i++){
                 std::string flag=argv[i];
@@ -23,6 +24,7 @@ void process(int argc, char *argv[]){
 
             Lexer lexer(filename);
             std::vector<Token> tokens=lexer.tokenize();
+
             for (auto token:tokens){
                 std::cout<<token.value<<" : "<<token.type<<std::endl;
             }

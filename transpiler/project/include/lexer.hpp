@@ -5,6 +5,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <stdexcept>
 
 struct Token {
     int line_nb;
@@ -16,7 +17,7 @@ struct Token {
 class Lexer {
     public:
         std::string filename;
-        std::vector<Token> tokens;
+        //std::vector<Token> tokens;
         Lexer(std::string fn) {
             filename=fn;
         }
